@@ -1,0 +1,363 @@
+///////////////////////////////////////////////
+///                                         ///
+///   Remember to change to desired values  ///
+///  When taking over to your own types.xml ///
+///                                         ///
+///////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////
+///                                               ///
+///      Remember to change to desired values     ///
+///     When taking over to your own types.xml    ///
+///                                               ///
+///       Please do not use CZ_landrover YET      ///
+///                                               ///
+/// lan_chest and LANCargo2Doors are not used yet ///
+///                                               ///
+/////////////////////////////////////////////////////
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+  <type name="CZ_landroverA_GlossyBlack">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>3600</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="CZ_landroverA_GlossyWhite">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>3600</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="CZ_landroverA_GlossyGreen">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>3600</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="CZ_landroverA">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>3600</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="CZ_landrover">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>3600</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+
+
+
+
+
+
+  <type name="lr_wheel">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="lr_wheel_glossyblack">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="lr_wheel_glossywhite">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="lr_wheel_destroyed">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="vehiclesparts" />
+  </type>
+  <type name="LANDoors_Driver_GlossyGreen">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="LANDoors_CoDriver_GlossyGreen">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="LANDoors_Hood_GlossyGreen">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="LANCargo1Doors_GlossyGreen">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="LANDoors_Driver_GlossyBlack">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="LANDoors_CoDriver_GlossyBlack">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="LANDoors_Hood_GlossyBlack">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="LANCargo1Doors_GlossyBlack">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="LANDoors_Driver_GlossyWhite">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="LANDoors_CoDriver_GlossyWhite">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="LANDoors_Hood_GlossyWhite">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="LANCargo1Doors_GlossyWhite">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="LANDoors_Driver">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="LANDoors_CoDriver">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="LANDoors_Hood">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="LANCargo1Doors">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="LANCargo2Doors">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+  <type name="lan_chest">
+    <nominal>0</nominal>
+    <lifetime>5400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="vehiclesparts" />
+    <tag name="floor" />
+    <usage name="Industrial" />
+  </type>
+</types>
